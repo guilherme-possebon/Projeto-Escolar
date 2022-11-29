@@ -1,0 +1,67 @@
+body {
+   /* background-color: rgb(26, 26, 26); */
+   background-image: linear-gradient(to top, rgb(133, 133, 133), rgb(88, 88, 88));
+}
+header {
+color: rgb(1, 255, 255);
+text-align: center;
+text-shadow: 1px 1px 10px rgb(1, 255, 255);
+}
+footer {
+color: white;
+text-align: center;
+font-style: italic;
+margin-top: 80px;
+}
+div {  
+    color: rgb(255, 255, 255);
+}
+#tipo {
+    margin-top: 100px;
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 1px 1px 10px rgba(34, 122, 122, 0.607);
+}
+#ex {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#imag1, #imag2, #imag4 {
+    width: 300px;
+    height: 250px;
+}
+p#imagem {
+    text-align: center;
+}
+#voltar{
+    height: 20px;
+    background-color: #0095ff;
+    padding: 10px;
+    text-align: center;
+    font-size: 15pt;
+    padding-top: 10px;
+    color: rgb(255, 251, 251);
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ #inicio {
+    height: 20px;
+    background-color: #0095ff;
+    padding: 10px;
+    text-align: center;
+    font-size: 15pt;
+    padding-top: 10px;
+    color: rgb(255, 251, 251);
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ .grid {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    justify-content: space-evenly
+ } 
+ #uni {
+    text-align: center;
+    margin-top: 80px;
+ }

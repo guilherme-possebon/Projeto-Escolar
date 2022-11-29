@@ -1,0 +1,45 @@
+body {
+   background-image: url("Imagens/pexels-caio-56759.jpg");
+    background-repeat: repeat-x;
+}
+header {
+color: rgb(241, 245, 0);
+text-align: center;
+font: normal 15pt Arial;
+text-shadow: 1px 1px 5px black;
+}
+footer {
+color: rgb(255, 255, 255);
+text-align: center;
+font-style: italic;
+}
+#pergunta {
+    margin: 140px;
+    margin-bottom: 100px;
+    text-shadow: 1px 1px 5px black;
+}
+#resposta {
+    text-align: center;
+    margin-left: 120px;
+    margin-bottom: 60px;
+    text-shadow: 1px 1px 5px black;
+}
+#tiposdesign, #voltardesign{
+    height: 20px;
+    background-color: #ffa500;
+    padding: 10px;
+    text-align: center;
+    font-size: 15pt;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ .grid {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    justify-content: space-evenly
+ } 
+ #uni {
+    text-align: center;
+ }
